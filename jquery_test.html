@@ -1,0 +1,38 @@
+---
+layout: default
+title: Jquery
+permalink: /jquery_test/
+---
+
+<script>
+  $(document).ready(function(){
+    $("button.1").hover(function(){
+      $('div#1').slideToggle(900, "swing"); <!-- Also "linear" works to make it a constant speed the whole time -->
+    });
+    $("button.2").hover(function(){
+      $('div#2').slideToggle(800, "swing");
+    });
+    $("button.3").hover(function(){
+      $('div#3').toggle(1000);
+    });
+    $("button.4").hover(function(){
+      $('div#4').toggle(1000);
+    });
+    $("button.5").click(function(){
+      $('div#5').toggle(1000);
+    });
+  });
+</script>
+<ul>
+    <li><button class="1">About</button></li>
+    <li><button class="2">Amentities</button></li>
+    <li><button class="3">Apartments</button></li>
+    <li><button class="4">Connect</button></li>
+    <li><button class="5">Gallery</button></li>
+    
+</ul>
+<div id="1" style="display:none"><img src="http://www.scrubly.com/blog/wp-content/uploads/2014/11/nov17_33.jpg" /></div>
+<div id="2" style="display:none"><img src="https://i.ytimg.com/vi/-9GVTx45wrU/maxresdefault.jpg" /></div>
+<div id="3" style="display:none"><img src="http://i.dailymail.co.uk/i/pix/2010/03/16/article-1258318-086EFE36000005DC-684_468x623.jpg" /></div>
+<div id="4" style="display:none"><img src="http://www.hfpa.org/wp-content/uploads/2014/09/tina-fey-tk.jpg" /></div>
+<div id="5"><img src="http://brooklynancestry.com/wp-content/uploads/2014/11/Tina-Fey.jpg" /></div>

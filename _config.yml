@@ -1,0 +1,12 @@
+# Site settings
+title: Stevenson Lofts
+email: rentals@relisto.com
+description: > # this means to ignore newlines until "baseurl:"
+  The team at ReLISTO has partnered with the owners of Stevenson Street to help you find better housing. 
+baseurl: "/ReLISTO-Stevenson" # the subpath of your site, e.g. /blog/
+url: "https://dannyshafer.github.io" # the base hostname & protocol for your site
+twitter_username: ReLISTO
+github_username:  dannyshafer
+
+# Build settings
+markdown: kramdown
